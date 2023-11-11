@@ -52,7 +52,7 @@ if ($input["type"] == "StatementItem") {
         date("d.m.Y H:i:s", ($input["data"]["statementItem"]["time"])),
         round(($input["data"]["statementItem"]["operationAmount"] / 100), 2),
         $input["data"]["statementItem"]["description"]."\n".$input["data"]["statementItem"]["comment"],
-        "Дохід",
+        "Обмін валюти",
         "Основний дохід",
         "MonoBank EUR",
         "EUR",
